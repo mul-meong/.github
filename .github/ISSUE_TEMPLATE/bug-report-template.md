@@ -1,7 +1,7 @@
 ---
 name: 'Bug Report Template'
 about: '(괄호) 부분은 다 지우고 작성해주세요'
-title: '[DeBug] (A) 기능 디버그 요청'
+title: '[DeBug] A 기능 디버그'
 labels: 'bug'
 assignees: ''
 ---
