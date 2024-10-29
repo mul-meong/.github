@@ -1,5 +1,12 @@
-## 📣 [Release] (제목)
-### 📅 (날짜 -  YYYY.MM.DD)
+---
+name: 'Release Template'
+about: '(괄호) 부분은 다 지우고 작성해주세요'
+title: 'Release: A 기능 구현'
+labels: 'deploy'
+assignees: ''
+---
+
+### 📅 (배포 일자 -  YYYY.MM.DD)
 
 ### 🌵 Branch
 develop → release

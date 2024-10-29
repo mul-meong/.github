@@ -1,7 +1,15 @@
+---
+name: 'Develop Template'
+about: '(괄호) 부분은 다 지우고 작성해주세요'
+title: 'Feature: A 기능 구현'
+labels: 'enhancement'
+assignees: ''
+---
+
 ### 📅 (작업 기간 - YYYY.MM.DD ~ YYYY.MM.DD)
 
 ### 🌵 Branch
-(branch) → (branch)
+(branch) → develop
 
 ### 📢 Description
 (변경사항 설명을 적어주세요)
