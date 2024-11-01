@@ -1,7 +1,7 @@
 ---
 name: 'Feature Issue Template'
 about: '(괄호) 부분은 다 지우고 작성해주세요'
-title: '[Domain] (A) 기능 구현'
+title: '[💬 (Service名)] (AAA) 기능 구현'
 labels: 'enhancement'
 assignees: ''
 ---

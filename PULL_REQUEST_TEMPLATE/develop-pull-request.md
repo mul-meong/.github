@@ -1,7 +1,7 @@
 ---
-name: 'Develop Template'
+name: 'Feature => Develop Template'
 about: '(괄호) 부분은 다 지우고 작성해주세요'
-title: 'Feature: A 기능 구현'
+title: '[🔀 (Service名)] (Feature): (AAA) 기능 구현'
 labels: 'enhancement'
 assignees: ''
 ---
