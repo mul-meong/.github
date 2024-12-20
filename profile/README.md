@@ -53,7 +53,7 @@
         <td width="160px">
         <sub>
           - 프로젝트 기획 <br>
-          - 피드, 쇼츠, 댓글, 프로필, 유틸리티 <br>
+          - 피드, 쇼츠, 댓글, 프로필, 유틸리티, 챗봇 <br>
           - 기술 공유, 업무관계관리
       </td>
     </tr>
@@ -66,7 +66,7 @@
 <table>
     <tr>
         <td width="25%" align="center"> <a href="https://github.com/gyudol">
-            <img src="./readme-assets/kim-gyu-chan.jpg" width="160px" /> <br> 🐬 김규찬 <br>(Backend & Infra) </a> <br></td>
+            <img src="./readme-assets/kim-gyu-chan.jpg" width="160px" /> <br> 🐬 김규찬 <br>(Backend & DevOps) </a> <br></td>
         <td width="25%" align="center"> <a href="https://github.com/iqveou6">
             <img src="./readme-assets/kim-na-kyeong.jpg" width="160px" /> <br> 🐠 김나경 <br>(Backend) </a> <br></td>
         <td width="25%" align="center"> <a href="https://github.com/Cualone">
@@ -85,14 +85,14 @@
       </td>
       <td width="160px">
         <sub>
-          - <strong>Service</strong>: 댓글 (CQRS) | 알림 (SSE) <br>
+          - <strong>Service</strong>: 댓글 (CQRS) | 알림 (SSE) | 챗봇 <br>
           - OpenAI 활용한 챗봇
         </sub>
       </td>
       <td width="160px">
         <sub>
             - <strong>Service</strong>: 콘테스트 (CQRS) | 유틸리티 | Batch <br>
-            - Google Vision API 활용한 이미지 필터링 
+            - Google Vision API 활용한 콘테스트 이미지 필터링 
         </sub>
       </td>
       <td width="160px">
@@ -124,7 +124,7 @@
 ![ShadcnUI](https://img.shields.io/badge/shadcnui-000000.svg?style=for-the-badge&logo=shadcnui&logoColor=#000000)
 </div>
 
-- **Language |** TypeScript 5.5.4, JavaScript
+- **Language |** JavaScript, TypeScript 5.5.4
 - **Runtime Environment |** Node.js 22.11.0
 - **Framework |** Next.js 14.2.18 (React 18.3.1), Tailwind CSS 3.4.1
 - **Library |** React Query 5.62.0, shadcn/ui 2.1.6, Swiper 11.1.15
@@ -148,7 +148,7 @@
 - **Language |** Java 17
 - **Framework |** Spring Boot 3.3.5
 - **Library |** Spring Data JPA, Querydsl 5.0.0
-- **Database |** MySQL 8.0.38, Redis 7.2, 
+- **Database |** MySQL 9.1.0, 
 - **IDE |** IntelliJ IDEA 2024.2 (Ultimate Edition), Visual Studio Code 1.93.1
 - **Build Tool |** Gradle 8.8.0
 
@@ -206,7 +206,7 @@
 ### 🌕 Frontend
 <details align="left">
   <summary>
-    자세히
+    <strong>qua-client</strong>
   </summary>
 
   ```
@@ -240,6 +240,14 @@
 
 <img src="./readme-assets/kafka_event_flow.png"/>
 </div>
+
+<h3>✅ Swagger API Docs</h3>
+<details>
+  <summary>
+    자세히
+  </summary>
+    
+</details>
 
 <h3><a href="https://docs.google.com/spreadsheets/d/1CdCDOPiE4GA5urwCMLrX0c7LAO8PddCFb4XHhNKpIgc/edit?gid=118836952#gid=118836952" target="_blank">📅 WBS</a></h3>
 
