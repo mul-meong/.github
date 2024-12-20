@@ -8,19 +8,15 @@
 
 <div align="center"> 
 <table align="center">
-  <tbody align="center"> 
     <tr>
-      <td align="center" valign="middle" width="100%">
+      <td colspan="2" align="center" width="100%">
       <img src="./readme-assets/thumbnail.png" /></td></tr>
     <tr>
-      <td align="center" valign="middle" width="60%">
-      <img src="./readme-assets/service_access_qr.png" /></td>
-      <td align="center" valign="middle" width="40%">
+      <td width="40%" align="center">
       <img src="./readme-assets/qua_preview.png" /></td>
-    </tr>
-  </tbody>
+      <td width="60%" align="center">
+      <img src="./readme-assets/service_access_qr.png" /></td></tr>
 </table> <br>
-<img src="./readme-assets/service_access_qr.png">
 </div>
 
 ## 🔎 목차
@@ -203,6 +199,31 @@
   </tbody>
 </table>
 </div>
+<br>
+
+## 📂 디렉터리 구조
+<a name="directories"></a>
+### 🌕 Frontend
+<details align="left">
+  <summary>
+    자세히
+  </summary>
+
+  ```
+
+  ```
+</details>
+
+### 🌑 Backend
+<details align="left">
+  <summary>
+    자세히
+  </summary>
+
+  ```
+
+  ```
+</details>
 <br>
 
 ## 📦 프로젝트 산출물
