@@ -2,13 +2,25 @@
 물고기와 함께하는 일상을 기록하고 소통할 수 있는 특별한 플랫폼, **반려어 SNS 프로젝트**<br>
 반려어와 수족관에 대한 다양한 정보와 경험을 공유하는 커뮤니티 서비스입니다.
 
-- **개발 기간** : 2024.10.08 ~ 2024.12.19  (11주)
+- **개발 기간** : 2024.10.08 ~ 2024.12.19  **(11주)**
 - **플랫폼** : Web App
 - **개발 인원** : 6명 <br><br>
 
 <div align="center"> 
-
-<img src="./readme-assets/thumbnail.png" />
+<table align="center">
+  <tbody align="center"> 
+    <tr>
+      <td align="center" valign="middle" width="100%">
+      <img src="./readme-assets/thumbnail.png" /></td></tr>
+    <tr>
+      <td align="center" valign="middle" width="60%">
+      <img src="./readme-assets/service_access_qr.png" /></td>
+      <td align="center" valign="middle" width="40%">
+      <img src="./readme-assets/qua_preview.png" /></td>
+    </tr>
+  </tbody>
+</table> <br>
+<img src="./readme-assets/service_access_qr.png">
 </div>
 
 ## 🔎 목차
@@ -26,6 +38,33 @@
 ## 🌟 팀원 구성
 <a name="developers"></a>
 
+### 🌕 Frontend
+<div align="center">
+<table>
+    <tr>
+        <td width="25%" align="center"> <a href="https://github.com/eomhyunsik">
+        <img src="./readme-assets/eom-hyun-sik.jpg" width="160px" /> <br> 🦞 엄현식 <br>(Frontend) </a> <br></td>
+        <td width="25%" align="center"> <a href="https://github.com/oror-sine">
+            <img src="./readme-assets/hong-jeong-hyeon.png" width="160px" /> <br> 🐡 홍정현 <br>(Frontend) </a> <br></td>
+    </tr>
+    <tr>
+        <td width="160px">
+            <sub>
+                - 소셜 로그인 / 회원가입 <br>
+                - 피드 폼, 쇼츠 폼, 콘테스트, 관심사 설정
+            </sub>
+        </td>
+        <td width="160px">
+        <sub>
+          - 프로젝트 기획 <br>
+          - 피드, 쇼츠, 댓글, 프로필, 유틸리티 <br>
+          - 기술 공유, 업무관계관리
+      </td>
+    </tr>
+</table>
+</div>
+<br>
+
 ### 🌑 Backend
 <div align="center">
 <table>
@@ -35,7 +74,7 @@
         <td width="25%" align="center"> <a href="https://github.com/iqveou6">
             <img src="./readme-assets/kim-na-kyeong.jpg" width="160px" /> <br> 🐠 김나경 <br>(Backend) </a> <br></td>
         <td width="25%" align="center"> <a href="https://github.com/Cualone">
-            <img src="./readme-assets/lee-myeong-jun.jpg" width="160px" /> <br> 🦈 이명준 <br>(Backend) </a> <br></td>
+            <img src="./readme-assets/lee-myeong-jun.jpg" width="160px" /> <br> 🐳 이명준 <br>(Backend) </a> <br></td>
         <td width="25%" align="center"> <a href="https://github.com/SeongGwangJu">
             <img src="./readme-assets/ju-seong-gwang.png" width="160px" /> <br> 🐟 주성광 <br>(Backend & Leader) </a> <br></td>
     </tr>
@@ -50,7 +89,7 @@
       </td>
       <td width="160px">
         <sub>
-          - <strong>Service</strong>: 댓글 (CQRS) | 챗봇 | 알림 (SSE) <br>
+          - <strong>Service</strong>: 댓글 (CQRS) | 알림 (SSE) <br>
           - OpenAI 활용한 챗봇
         </sub>
       </td>
@@ -71,35 +110,10 @@
 
 </div>
 
-### 🌕 Frontend
-<div align="center">
-<table>
-    <tr>
-        <td width="25%" align="center"> <a href="https://github.com/eomhyunsik">
-        <img src="./readme-assets/eom-hyun-sik.jpg" width="160px" /> <br> 🐠 엄현식 <br>(Frontend) </a> <br></td>
-        <td width="25%" align="center"> <a href="https://github.com/oror-sine">
-            <img src="./readme-assets/hong-jeong-hyeon.png" width="160px" /> <br> 🐡 홍정현 <br>(Frontend) </a> <br></td>
-    <tr>
-        <td width="160px">
-            <sub>
-                - 소셜 로그인 / 회원가입 <br>
-                - 피드 폼, 쇼츠 폼, 콘테스트, 관심사 설정
-            </sub>
-        </td>
-        <td width="160px">
-        <sub>
-          - 피드, 쇼츠, 댓글, 답글, 프로필, 유틸리티 <br>
-          - 기술 공유, 업무관계관리
-      </td>
-    </tr>
-</table>
-</div>
-<br>
-
 
 ## 🛠️ 기술 스택
 <a name="techStack"></a>
-### Frontend
+### 🌕 Frontend
 
 <div align="center">
 
@@ -114,13 +128,13 @@
 ![ShadcnUI](https://img.shields.io/badge/shadcnui-000000.svg?style=for-the-badge&logo=shadcnui&logoColor=#000000)
 </div>
 
-- **Language |** TypeScript 5.5.4
+- **Language |** TypeScript 5.5.4, JavaScript
 - **Runtime Environment |** Node.js 22.11.0
-- **Framework |** Next.js 14.2.7, Tailwind CSS 3.4.1
-- **Library |** Shadcn UI
+- **Framework |** Next.js 14.2.18 (React 18.3.1), Tailwind CSS 3.4.1
+- **Library |** React Query 5.62.0, shadcn/ui 2.1.6, Swiper 11.1.15
 - **IDE |** Visual Studio Code 1.93.1
 
-### Backend
+### 🌑 Backend
 <div align="center">
 
 ![IntelliJ IDEA](https://img.shields.io/badge/intellijidea-000000.svg?&style=for-the-badge&logo=intellijidea&logoColor=white)
@@ -136,7 +150,7 @@
 </div>
 
 - **Language |** Java 17
-- **Framework |** Spring Boot 3.2.9
+- **Framework |** Spring Boot 3.3.5
 - **Library |** Spring Data JPA, Querydsl 5.0.0
 - **Database |** MySQL 8.0.38, Redis 7.2, 
 - **IDE |** IntelliJ IDEA 2024.2 (Ultimate Edition), Visual Studio Code 1.93.1
@@ -182,6 +196,11 @@
         <td width="25%"><img width="100%" src="./readme-assets/shorts_create.gif"/></td> 
         <td width="25%"><img width="100%" src="./readme-assets/search.gif"/></td> </tr>
   </tbody>
+  <tbody align="center"> 
+    <tr> <th style="text-align: center"> (임시) </th> <th style="text-align: center"> Feed View </th> 
+    <th style="text-align: center"> Shorts View </th> <th style="text-align: center"> (임시) </th> </tr>
+    <tr> <td width="25%"><img width="100%" src="./readme-assets/feed_list.gif"/></td> 
+  </tbody>
 </table>
 </div>
 <br>
@@ -193,6 +212,12 @@
 <div align="center"> 
 
 <img src="./readme-assets/erd_image.png"/>
+</div>
+
+<h3>💨 Kafka Event Flow</h3>
+<div align="center"> 
+
+<img src="./readme-assets/kafka_event_flow.png"/>
 </div>
 
 <h3><a href="https://docs.google.com/spreadsheets/d/1CdCDOPiE4GA5urwCMLrX0c7LAO8PddCFb4XHhNKpIgc/edit?gid=118836952#gid=118836952" target="_blank">📅 WBS</a></h3>
