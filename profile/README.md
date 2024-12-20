@@ -35,7 +35,7 @@
         <td width="25%" align="center"> <a href="https://github.com/iqveou6">
             <img src="./readme-assets/kim-na-kyeong.jpg" width="160px" /> <br> 🐠 김나경 <br>(Backend) </a> <br></td>
         <td width="25%" align="center"> <a href="https://github.com/Cualone">
-            <img src="./readme-assets/lee-myeong-jun.jpg" width="160px" /> <br> 🦈 이명준 <br>(Backend) </a> <br></td>
+            <img src="./readme-assets/lee-myeong-jun.jpg" width="160px" /> <br> 🐳 이명준 <br>(Backend) </a> <br></td>
         <td width="25%" align="center"> <a href="https://github.com/SeongGwangJu">
             <img src="./readme-assets/ju-seong-gwang.png" width="160px" /> <br> 🐟 주성광 <br>(Backend & Leader) </a> <br></td>
     </tr>
