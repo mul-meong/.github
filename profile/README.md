@@ -16,6 +16,9 @@
       <img src="./readme-assets/qua_preview.png" /></td>
       <td width="60%" align="center">
       <img src="./readme-assets/service_access_qr.png" /></td></tr>
+    <tr>
+      <td colspan="2" align="center" width="100%">
+      <img src="./readme-assets/excellence_award.jpg" /></td></tr>
 </table> <br>
 </div>
 
