@@ -54,7 +54,6 @@
         <sub>
           - 프로젝트 기획 <br>
           - 피드, 쇼츠, 댓글, 프로필, 유틸리티, 챗봇 <br>
-          - 기술 공유, 업무관계관리
       </td>
     </tr>
 </table>
@@ -150,11 +149,12 @@
 ![Kibana](https://img.shields.io/badge/kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/googlecloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white)
+
 </div>
 
 - **Language |** Java 17
 - **Framework |** Spring Boot 3.3.5
-- **Library |** Spring Data JPA, Querydsl 5.0.0
+- **Library |** Spring Eureka, Spring Cloud Config, Spring Security, Spring Batch, Spring Validation, Spring Data JPA, Spring Kafka, Spring Data MongoDB, Spring Data Elasticsearch, Spring Data Redis, Spring OpenFeign, Spring Cloud GCP, Google Cloud Vision 3.4.0, GRPC Netty Shaded 1.67.1, Springdoc OpenAPI 2.6.0, Querydsl 5.0.0
 - **Database |** MySQL 9.1.0, 
 - **IDE |** IntelliJ IDEA 2024.2 (Ultimate Edition)
 - **Build Tool |** Gradle 8.8.0
@@ -170,9 +170,17 @@
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
 ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=AWS%20Lambda&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![OpenCV](https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=opencv&logoColor=ffdd54)<br>
 ![AWS CloudFront](https://img.shields.io/badge/AWS%20CloudFront-7747d4?style=for-the-badge&logo=https://github.com/4-mul-meong/.github/blob/main/profile/readme-assets/cloudfront.svg&logoColor=white)
+![AWS MediaConvert](https://img.shields.io/badge/AWS%20MediaConvert-e2740e?style=for-the-badge&logo=https://github.com/4-mul-meong/.github/blob/main/profile/readme-assets/mediaconvert.svg&logoColor=white)
 </div>
+
+- **Spec |** T3.XLARGE
+- **AMI |** Ubuntu Server 24.04.1 LTS
+- **Volume |** 54GB <br><br>
+
+- **Docker |** v27.3.1
+- **Docker Compose |** v1.29.2
 
 ### 🤝 Collaboration
 <div align="center">
@@ -198,17 +206,27 @@
 <div align="center"> 
 <table>
   <tbody align="center"> 
-    <tr> <th style="text-align: center"> Login </th> <th style="text-align: center"> Feed Create </th> 
-    <th style="text-align: center"> Shorts Create </th> <th style="text-align: center"> Search </th> </tr>
-    <tr> <td width="25%"><img width="100%" src="./readme-assets/login.gif"/></td> 
-        <td width="25%"><img width="100%" src="./readme-assets/feed_create.gif"/></td> 
-        <td width="25%"><img width="100%" src="./readme-assets/shorts_create.gif"/></td> 
-        <td width="25%"><img width="100%" src="./readme-assets/search.gif"/></td> </tr>
+    <tr> <th style="text-align: center"> Social Login </th> <th style="text-align: center"> Feed Create </th> <th style="text-align: center"> Shorts Create </th> </tr>
+    <tr> <td width="33%"><img width="100%" src="./readme-assets/login.gif"/></td> 
+        <td width="33%"><img width="100%" src="./readme-assets/feed_create.gif"/></td> 
+        <td width="33%"><img width="100%" src="./readme-assets/shorts_create.gif"/></td> </tr> </tbody>
+  <tbody align="center"> 
+    <tr> <th style="text-align: center"> Search & Hashtag Filtering </th> <th style="text-align: center"> Feed View </th> <th style="text-align: center"> Shorts View </th>  </tr>
+    <tr> <td width="33%"><img width="100%" src="./readme-assets/search.gif"/></td>
+    <td width="33%"><img width="100%" src="./readme-assets/feed_view.gif"/></td>
+    <td width="33%"><img width="100%" src="./readme-assets/shorts_view.gif"/></td> </tr>
   </tbody>
   <tbody align="center"> 
-    <tr> <th style="text-align: center"> (임시) </th> <th style="text-align: center"> Feed View </th> 
-    <th style="text-align: center"> Shorts View </th> <th style="text-align: center"> (임시) </th> </tr>
-    <tr> <td width="25%"><img width="100%" src="./readme-assets/feed_list.gif"/></td> 
+    <tr> <th style="text-align: center"> ChatBot </th> <th style="text-align: center"> Recommendation </th> <th style="text-align: center"> Contest </th>  </tr>
+    <tr> <td width="33%"><img width="100%" src="./readme-assets/chatbot.gif"/></td>
+    <td width="33%"><img width="100%" src="./readme-assets/recommendation.gif"/></td>
+    <td width="33%"><img width="100%" src="./readme-assets/contest.gif"/></td> </tr>
+  </tbody>
+  <tbody align="center"> 
+    <tr> <th style="text-align: center"> Bookmark </th> <th style="text-align: center"> Category Filtering </th> <th style="text-align: center"> Asynchronous Processing </th>  </tr>
+    <tr> <td width="33%"><img width="100%" src="./readme-assets/bookmark.gif"/></td>
+    <td width="33%"><img width="100%" src="./readme-assets/category_filtering.gif"/></td>
+    <td width="33%"><img width="100%" src="./readme-assets/asynchronous_processing.gif"/></td> </tr>
   </tbody>
 </table>
 </div>
@@ -242,6 +260,12 @@
 ## 📦 프로젝트 산출물
 <a name="projectDeliverables"></a>
 
+<h3>🖼️ 화면 설계서</h3>
+<div align="center"> 
+
+<img src="./readme-assets/screen_design.png"/>
+</div>
+
 <h3>🗄️ ERD</h3>
 <div align="center"> 
 
@@ -257,10 +281,125 @@
 <h3>✅ Swagger API Docs</h3>
 <details>
   <summary>
-    자세히
+    <strong>Admin Service</strong>
   </summary>
-    
+  <div align="center"> 
+  <img src="./readme-assets/swagger/admin_service.png"/>
+  </div>  
 </details>
+<details>
+  <summary>
+    <strong>Chat Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/chat_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Comment Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/comment_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Comment Read Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/comment_read_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Contest Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/contest_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Contest Read Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/contest_read_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Feed Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/feed_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Feed Read Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/feed_read_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Member Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/member_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Member Read Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/member_read_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Notification Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/notification_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Reward Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/reward_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Shorts Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/shorts_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Shorts Read Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/shorts_read_service.png"/>
+  </div>  
+</details>
+<details>
+  <summary>
+    <strong>Utility Service</strong>
+  </summary>
+  <div align="center"> 
+  <img src="./readme-assets/swagger/utility_service.png"/>
+  </div>  
+</details>
+
 
 <h3><a href="https://docs.google.com/spreadsheets/d/1CdCDOPiE4GA5urwCMLrX0c7LAO8PddCFb4XHhNKpIgc/edit?gid=118836952#gid=118836952" target="_blank">📅 WBS</a></h3>
 
